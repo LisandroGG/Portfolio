@@ -1,12 +1,13 @@
-import './App.css'
 import Main from './components/Main/Main.jsx'
+import Nav from './components/Nav/Nav.jsx'
 
 function App() {
 
   return (
-    <>
-    <Main />
-    </>
+    <div className="">
+      <Nav />
+      <Main />
+    </div>
   )
 }
 
