@@ -16,7 +16,7 @@ const TechSkills = () => {
             </div>
             <div className="grid grid-cols-4 gap-4 p-10"> 
                 <img src={react} className='w-40 hover:(transition-all border-8 border-sky-400 rounded-full shadow-2xl shadow-sky-500)'></img>
-                <img src={js} className='w-40 hover:(transition-all border-8 border-yellow-200 rounded-full shadow-2xl shadow-yellow-300)'></img>
+                <img src={js} className='rounded-full w-40 hover:(transition-all border-8 border-yellow-200 shadow-2xl shadow-yellow-300)'></img>
                 <img src={html} className='w-40 hover:(transition-all border-8 border-orange-500 rounded-full shadow-2xl shadow-orange-600)'></img>
                 <img src={css} className='w-40 hover:(transition-all border-8 border-blue-600 rounded-full shadow-2xl shadow-blue-700)'></img>
                 <img src={redux} className='w-40 hover:(transition-all border-8 border-violet-600 rounded-full shadow-2xl shadow-violet-700)'></img>
