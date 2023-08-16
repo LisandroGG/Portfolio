@@ -1,5 +1,3 @@
-import logo from '../../img/logo.png'
-
 const Nav = () => {
 
     const icon = '</>'
