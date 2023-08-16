@@ -10,7 +10,7 @@ import sequelize from '../../img/sequelize.png'
 
 const TechSkills = () => {
     return(
-        <div className="grid grid-cols-2 p-10 ">
+        <div id='techs' className="grid grid-cols-2 p-10">
             <div className="grid grid-rows-4 p-10 m-6">
                 <span className="text-5xl font-bold text-sky-400 underline text-left">Techs skills</span>
                 <span className="font-bold text-left">Todas estas tecnologias, exceptuando algunas, las aprendi en el bootcamp de Henry. <br />Donde ademas de aprenderlas, tuve projectos en los cuales pude aprendir Git-flow, saber como se maneja de forma correcta git, una buena comunicación con mi equipo, aportar ideas, tener reuniones diarias y una flexibilidad de horarios.</span>
@@ -25,6 +25,8 @@ const TechSkills = () => {
                 <img src={vite} className='w-40 hover:(transition-all border-8 border-violet-400 rounded-full shadow-2xl shadow-violet-500)'></img>
                 <img src={sequelize} className='w-40 hover:(transition-all border-8 border-cyan-500 rounded-full shadow-2xl shadow-cyan-600)'></img>
             </div>
+            
+            
         </div>
     )
 }
