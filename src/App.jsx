@@ -9,7 +9,7 @@ import Projects from './components/Projects/Projects.jsx'
 function App() {
 
   return (
-    <div className="bg-zinc-100">
+    <div className="bg-zinc-800">
       <Nav />
       <Main />
       <About />
