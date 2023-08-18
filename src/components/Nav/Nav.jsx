@@ -16,7 +16,7 @@ const Nav = () => {
             </div>
                 
             <div>
-                <a href='../../docs/cv.pdf' download className='bg-sky-600 rounded-2xl p-2 hover:(bg-sky-700 shadow-md shadow-sky-800)'>Descargar currículum</a>
+                <a href='https://docs.google.com/document/d/1mB9tp6fL8DBOf53kFjkyF1fU_pattDWn55k00FQZBPI/edit?usp=sharing' target="_Blank" className='bg-sky-600 rounded-2xl p-2 hover:(bg-sky-700 shadow-md shadow-sky-800)'>Ver currículum</a>
             </div>
         </div>
     )
