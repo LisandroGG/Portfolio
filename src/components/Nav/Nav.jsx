@@ -4,9 +4,9 @@ const Nav = () => {
 
     return(
         
-        <div className="p-4 flex justify-between text-xl text-white bg-zinc-900 border-b-4 border-sky-600 shadow-md shadow-sky-500">
+        <div className="p-6 flex justify-between text-xl text-white bg-zinc-900 border-b-4 border-sky-600 shadow-md shadow-sky-500 fixed w-full">
             <div className="flex">
-                <h1>{icon}</h1>
+                <a href="#home">{icon}</a>
                 <ul className="flex text-white">
                     <li className="mx-5 hover:(text-sky-600)"><a href='#about'>Sobre mi</a></li>
                     <li className="mx-5 hover:(text-sky-600)"><a href='#techs'>Habilidades</a></li>

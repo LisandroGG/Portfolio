@@ -7,7 +7,6 @@ import tailwind from '../../img/tailwind.png'
 import vite from '../../img/vite.png'
 import sequelize from '../../img/sequelize.png'
 
-
 const TechSkills = () => {
     return(
         <div id='techs' className="grid grid-cols-2 p-10 mb-20">

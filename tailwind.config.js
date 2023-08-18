@@ -4,12 +4,16 @@ export default {
   theme: {
     extend: {
       animation: {
-        typing: "typing 2s steps(10) infinite forwards alternate-reverse",
+        typing: "typing 2s steps(28) infinite forwards alternate-reverse, blink 0.2s infinite",
       },
       keyframes: {
         typing: {
-          from: { width: "10ch" },
+          from: { width: "28ch" },
           to: { width: "0" }
+        },
+        blink: {
+          from: { "border-right-color": "transparent" },
+          to: { "border-right-color": "black" },
         },
       },
     },
