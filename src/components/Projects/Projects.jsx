@@ -10,8 +10,8 @@ const Projects = () => {
                     <h1 className="text-xl">The literary corner</h1>
                     <h1 className="text-sm">Trabajo grupal</h1>
                     <div>
-                        <a href="https://pf-henry-bookstore.vercel.app/" target="_blank"><box-icon type='logo' name='github' size='sm' color='#ffffff'></box-icon></a>
-                        <a href="https://github.com/lordbattle/PF-Henry-Bookstore" target="_blank"><box-icon name='link-alt' size='sm' color='#ffffff'></box-icon></a>
+                        <a href="https://github.com/lordbattle/PF-Henry-Bookstore" target="_blank"><box-icon type='logo' name='github' size='sm' color='#ffffff'></box-icon></a>
+                        <a href="https://pf-henry-bookstore.vercel.app/" target="_blank"><box-icon name='link-alt' size='sm' color='#ffffff'></box-icon></a>
                     </div>
                 </div>
                 
