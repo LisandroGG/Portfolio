@@ -4,7 +4,7 @@ const Nav = () => {
 
     return(
         
-        <div className="xl:(p-6 flex justify-between text-xl text-white bg-zinc-900 border-b-4 border-sky-600 shadow-md shadow-sky-500 fixed w-full) md:(p-6 flex justify-between text-xl text-white bg-zinc-900 border-b-4 border-sky-600 shadow-md shadow-sky-500)">
+        <div className="flex justify-between text-white bg-zinc-900 border-b-4 border-sky-600 shadow-md shadow-sky-500 xl:(p-6 text-xl fixed w-full) md:(p-6 text-xl) sm:(p-6 )">
             <div className="flex">
                 <a href="#home">{icon}</a>
                 <ul className="flex text-white">

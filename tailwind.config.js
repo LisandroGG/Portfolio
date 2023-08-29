@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{html,js,jsx,ts,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      scale: {
+        '65': '0.65'
+      },
       animation: {
         typing: "typing 2s steps(28) infinite forwards alternate-reverse, blink 0.2s infinite",
       },
