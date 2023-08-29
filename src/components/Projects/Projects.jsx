@@ -6,7 +6,7 @@ const Projects = () => {
                 <span className="font-bold text-sky-400 underline pb-10 xl:(text-5xl) md:(text-3xl) sm:(text-2xl)">Projectos</span>
             </div>
             <div className="grid mt-10 place-items-center gap-4 xl:(grid-cols-3) md:(grid-cols-1) sm:(grid-cols-1)">
-                <div className="bg-sky-500 p-4 rounded-2xl font-bold text-center">
+                <div className="bg-sky-500 p-4 rounded-2xl font-bold text-center w-100">
                     <h1 className="text-xl">The literary corner</h1>
                     <h1 className="text-sm">Trabajo grupal</h1>
                     <div>
