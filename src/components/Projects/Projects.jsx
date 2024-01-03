@@ -14,6 +14,14 @@ const Projects = () => {
                         <a href="https://pf-henry-bookstore.vercel.app/" target="_blank"><box-icon name='link-alt' size='sm' color='#ffffff'></box-icon></a>
                     </div>
                 </div>
+                <div className="bg-sky-500 p-4 rounded-2xl font-bold text-center w-100">
+                    <h1 className="text-xl">Dolarizate</h1>
+                    <h1 className="text-sm">Trabajo individual</h1>
+                    <div>
+                        <a href="https://github.com/LisandroGG/Dolarizate" target="_blank"><box-icon type='logo' name='github' size='sm' color='#ffffff'></box-icon></a>
+                        <a href="https://dolarizate.vercel.app/" target="_blank"><box-icon name='link-alt' size='sm' color='#ffffff'></box-icon></a>
+                    </div>
+                </div>
             </div>
         </div>
     )
