@@ -1,16 +1,25 @@
-import style from '../src/App.module.css'
-import Footer from './Components/Footer/Footer'
-import Main from './Components/Main/Main'
-import Nav from './Components/Nav/Nav'
+import Main from './components/Main/Main.jsx'
+import Nav from './components/Nav/Nav.jsx'
+import Footer from './components/Footer/Footer.jsx'
+import TechSkills from "./components/TechSkills/TechSkills"
+import Contact from "./components/Contact/Contact.jsx"
+import About from './components/About/About.jsx'
+import Projects from './components/Projects/Projects.jsx'
 
 function App() {
 
   return (
-    <>
-      <Nav></Nav>
-      <Main></Main>
-      <Footer></Footer>
-    </>
+    <div className="bg-zinc-800 text-white">
+      <Nav />
+        <div className='px-20'>
+          <Main />
+          <About />
+          <TechSkills />
+          <Projects />
+          <Contact />
+        </div>
+      <Footer />
+    </div>
   )
 }
 

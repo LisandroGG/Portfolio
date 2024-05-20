@@ -1,28 +1,34 @@
-:root{
-  --body_background:#f1f0f6;
-  --content_background: #ffffff;
-  --border: #84848f6b;
-  --text: black;
-  --nav_hover: #e6e8eb;
-
-}
-
-[data-theme="dark"] {
-  --body_background:#161b28;
-  --content_background:#1d2333;
-  --border: #84848f6b;
-  --text: white;
-  --nav_hover:#161b28;
-}
-
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
-body{
-  background-color: var(--body_background);
-  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    scrollbar-gutter: auto;
 }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #18181b;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0ea5e9;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0284c7;
+}
+
 
